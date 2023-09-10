@@ -1,0 +1,87 @@
+/* Start Common CSS style Here */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+/* Start Common CSS style Here */
+
+
+
+/* Start Header Section CSS Here */
+#nav_section {
+    background-color: #ffffff;
+    box-shadow: 0 7px 20px -17px black;
+}
+
+#nav_section .row {
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+#nav_section .navbar li>a {
+    padding: 20px 15px;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+/* Start Header Section CSS Here */
+/* Start Side Bar Section Button */
+
+
+.btn_arrow {
+    position: fixed;
+    right: 50px;
+    bottom: 80%;
+    opacity: 0;
+    visibility: hidden;
+    width: 40px;
+    height: 40px;
+    font: 25px;
+    border: none;
+    color: black;
+    background: orangered;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.btn_arrow.show {
+    bottom: 50px;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+
+}
+
+
+/* Start Side Bar Section Button */
