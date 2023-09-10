@@ -87,6 +87,8 @@ img {
 /* Start Side Bar Section Button */
 /* Start Bannar Section here */
 .our_first_slider .item {
+    color: #ffffff;
+    ;
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -95,3 +97,31 @@ img {
 }
 
 /* Start Bannar Section here */
+
+/* Start Bannar Section Here */
+#bannar_section h5 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    color: black
+}
+
+#bannar_section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 75px;
+    color: #ffffff
+}
+
+#bannar_section p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffff
+}
+
+#bannar_section button {
+    padding: 20px 10px;
+}
+
+/* Start Bannar Section Here */
