@@ -10,5 +10,10 @@ $(function () {
     })
 
 
-    $('.our_first_slider').slick()
+    $('.our_first_slider').slick({
+        autoplay: true,
+        autoplaySpeed: 1000,
+
+
+    })
 })
