@@ -8,4 +8,7 @@ $(function () {
             $('.up_arrow').removeClass('show')
         }
     })
+
+
+    $('.our_first_slider').slick()
 })
